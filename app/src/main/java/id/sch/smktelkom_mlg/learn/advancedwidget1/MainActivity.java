@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 hasil += "Anak ke-" + (i + 1) + "; " + nama + " umur " + umur + "tahun\n";
         }
 
-        TextView tvHasil = (TextView) llMain.getChildAt(ll);
+        TextView tvHasil = (TextView) llMain.getChildAt(11);
         tvHasil.setText(hasil);
     }
 
